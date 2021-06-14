@@ -1,0 +1,23 @@
+﻿{% extends "bootstrap/base.html" %}
+{% block styles %}
+{{super()}}
+<link rel="stylesheet" href="{{url_for('.static', filename='styles.css')}}">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+{% endblock %}
+
+{% block content%}
+<ul style="list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333;">
+    <li style="float: left;"><a class="active" href="home" style="display: block; color: white;padding: 14px 16px;">Home</a></li>
+    <li style="float: left;"><a href="face" style="display: block; color: white;padding: 14px 16px;">Face</a></li>
+    <li style="float: left;"><a href="voice" style="display: block; color: white;padding: 14px 16px;">Voice</a></li>
+</ul>
+<img src="{{url_for('.static',filename = 'Presentation2.jpg')}}">
+<h2 class="heading">{{data}}</br></h2>
+<img class="icon" src="{{url_for('.static',filename = 'face-detection.svg')}}">
+<a href="expression"><button class="detect_btn">Detect</button></a>
+<p>Press q to quit</p>
+
+
+
+{% endblock %}

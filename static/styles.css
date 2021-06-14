@@ -1,0 +1,92 @@
+body{
+    background: #172326;
+    
+}
+
+img{
+position: absolute;
+width: 486px;
+height: 426px;
+left: 94px;
+top: 130px;
+}
+
+h2{
+position: absolute;
+left: 730px;
+top: 130px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 55px;
+line-height: 75px;
+text-align: center;
+color: #fffdfd;
+}
+
+.detect_btn {
+position: absolute;
+width: 410px;
+height: 90px;
+left: 790px;
+top: 400px;
+background: #474AF0;
+border-radius: 66px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 56px;
+text-align: center;
+color: #E5E5E5;
+}
+
+.icon{
+
+position: absolute;
+width: 54px;
+height: 54px;
+left: 834px;
+z-index: 1;
+top: 415px;
+
+
+}
+
+p {
+position: absolute;
+width: 154px;
+height: 28px;
+left: 910px;
+top: 520px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 28px;
+
+color: #FFFFFF;
+
+}
+
+.voice_detect_btn {
+    position: absolute;
+    width: 410px;
+    height: 90px;
+    left: 790px;
+    top: 400px;
+    background: #F04747;
+    border-radius: 66px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #E5E5E5;
+    }
+
+    a:hover {
+        background-color:#F04747;
+      }
